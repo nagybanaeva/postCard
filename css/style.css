@@ -42,6 +42,9 @@ img{
   h1{
   font-size: 3rem;
   }
+  h2{
+  font-size:  2rem;
+  }
   img{
   width:40%;
 }
@@ -49,5 +52,6 @@ img{
 
 @media (min-height: 560px){
   h1, h2{
-    margin: 3rem;
+    margin: 2rem;
   }
+}
