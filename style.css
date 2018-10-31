@@ -1,0 +1,53 @@
+*{
+  box-sizing: border-box;
+}
+
+html, body{
+  height: 100%;
+  margin:0;
+  overflow: hidden;
+  color: black;
+  font-family: 'Mali', sans-serif;
+  background-image: url("../img/abundance-agriculture-crops-735540.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-color: rgba(255 ,255 ,255, 0.5);
+  background-blend-mode: lighten;
+  font-size: 1rem;
+}
+
+.kozepso{
+  flex-grow: 1;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+
+.fejlec{
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  flex-direction: column;
+}
+
+h1, h2{
+  margin: 0;
+}
+img{
+  max-width: 60%;
+}
+
+@media (min-width: 600px){
+  h1{
+  font-size: 3rem;
+  }
+  img{
+  width:40%;
+}
+}
+
+@media (min-height: 560px){
+  h1, h2{
+    margin: 3rem;
+  }
